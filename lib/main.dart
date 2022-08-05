@@ -28,7 +28,7 @@ class MyHomePage extends StatelessWidget {
         title: const Text("Kindacode.com"),
       ),
       body: Stack(children: [
-        Image.asset('assets/dessous.png', width: double.infinity, height: 250, fit: BoxFit.cover)
+        Image.asset('assets/dessous.png', width: double.infinity, height: 50, fit: BoxFit.cover)
       ]),
     );
   }
