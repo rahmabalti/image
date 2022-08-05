@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Kindacode.com"),
       ),
-      body: Stack(children: [
+      body: Row(mainAxisAlignment: MainAxisAlignment.end, children: <Widget>[
         Image.asset('assets/dessous.png')
       ]),
     );
