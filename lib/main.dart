@@ -44,13 +44,14 @@ class MyHomePage extends StatelessWidget {
                 'I Like Potatoes And Oranges',
                 style: TextStyle(fontSize: 20, color: Colors.white),
               ),
+
+              alignment: widget(child: Image.asset('assets/dessous.png', width: double.infinity, height: 250, fit: BoxFit.cover)),
             ),
           ),
         ],
       ),
     );
-
-    const SizedBox(height: 20);
-    Image.asset('assets/dessous.png', width: double.infinity, height: 250, fit: BoxFit.cover);
   }
+
+  widget({required Image child}) {}
 }
